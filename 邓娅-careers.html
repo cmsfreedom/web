@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>careers</title>
+	<style type="text/css">
+	/*div{
+		border:1px solid red;
+	}*/
+	/*红色边框*/
+	*{margin: 0;}
+	#main{
+		width: 100%;
+		height: 2292px;
+		background-image: url("images/bg-pattern.jpg");
+		background-size: 100%;
+		margin: 0 auto;
+		z-index: -1;
+	}
+
+	#header{
+		width: 100%;
+		height: 50px;
+		background-color: white;
+		position: fixed;/*固定定位*/
+		opacity: 0.6;/*透明度*/
+		z-index: 1;
+		top:0;
+		line-height: 50px;/*文字垂直居中*/
+	}
+	#header h3{font-size:20px;font-family:'微软雅黑','黑体',sans-serif;position:relative;left:100px;}
+
+	#banner{
+		width: 100%;
+		height: 483px;
+		background-image: url("images/3.6.jpg"); 
+		background-size: 100%;
+	}
+    #banner h1{color:white;font-size:80px;font-family:'微软雅黑','黑体',sans-serif;position:relative;top:190px;left:100px;}
+    #banner h4{color:white;font-size:20px;font-family:'微软雅黑','黑体',sans-serif;position:relative;top:200px;left:100px;}
+
+	#top{
+		width: 100%;
+		height: 480px;
+		justify-content: center;
+	}
+
+	#gridwrap{
+		width: 100%;
+		height: 970px;
+	}
+	#box-txt{
+		width:380px;
+		height:515px;
+		margin-top:27px;
+		margin-left:100px;
+		background-color: white;
+		background-size: 100%;
+		box-shadow:40px 40px 40px #ccc;
+		float: left;
+	}
+	.box-txt-1{
+		width:380px;
+		height:370px;
+		margin-top:80px;
+		margin-left:0px;
+		h2{font-size:10px;
+		   font-family:'微软雅黑','黑体',sans-serif;}
+		p{font-size:16px;
+		   font-family:'微软雅黑','黑体',sans-serif;}
+	}
+    #box-list{
+    	width:65%;
+		height:970px;
+		top:533px;
+		left:483px;
+		float: left;
+		position: absolute;
+    }
+    .box-list-1{
+    	width:100%;
+		height:297px;
+    }
+    .box-list-2{
+    	width:100%;
+		height:192px;
+    }
+    .box-list-3{
+    	width:100%;
+		height:88px;
+    }
+    .box-list-4{
+    	width:100%;
+		height:141px;
+    }
+    .title{
+    	height: 37px;
+    	line-height: 37px;
+    }
+    .vary{
+    	height: 50px;
+    	line-height: 50px;
+    	background-color: white;
+    	transition: all 1.5s;
+    }
+    .vary:hover{
+    	background-color: orange;
+    }
+	#buttom{
+		width: 100%;
+		height: 533px;
+		background-size: 100%;
+		text-align: center;
+		/*float: left;*/
+	}
+	#img-txt1{
+		width: 33.1%;
+		height: 533px;
+		background-color: rgb(233,233,233);
+		float: left;
+	}
+	#img-txt2{
+		width: 33.1%;
+		height: 533px;
+		background-color: rgb(244,244,244);
+		float: left;
+	}
+	#img-txt3{
+		width: 33.1%;
+		height: 533px;
+		background-color: rgb(233,233,233);
+		float: left;
+	}
+	.inner1{
+		width: 200px;
+		height: 200px;
+		margin-left: 120px;
+		margin-top: 0px;
+		background-size: 100%;
+		background-image: url("images/3.12.png");
+	}
+	.inner2{
+		width: 200px;
+		height: 200px;
+		margin-left: 120px;
+		margin-top: 0px;
+		background-size: 100%;
+		background-image: url("images/3.14.png");
+	}
+	.inner3{
+		width: 200px;
+		height: 200px;
+		margin-left: 120px;
+		margin-top: 0px;
+		background-size: 100%;
+		background-image: url("images/3.13.png");
+	}
+	.txt{
+		width: 240px;
+		height: 240px;
+		margin-left: 100px;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	#footer{
+		width: 75%;
+		height: 250px;
+		background-color: black;
+	}
+	#first{float:left;}
+    #first h3{font-size:20px;font-family:'微软雅黑','黑体',sans-serif;position:relative;top:30px;left:100px;color:white;}
+    #first p{font-size:15px;font-family:'微软雅黑','黑体',sans-serif;position:relative;top:70px;left:100px;color:white;}
+
+    #second{float:left;position:relative;top:-100px;}
+    #second h4{font-size:20px;font-family:'微软雅黑','黑体',sans-serif;position:relative;top:120px;left:177px;color:white;}
+    #second p{font-size:15px;font-family:'微软雅黑','黑体',sans-serif;position:relative;top:140px;left:170px;color:white;}
+    #second a{color:white;}
+
+    #third{float:left;position:relative;top:-80px;}
+    #third h4{font-size:20px;font-family:'微软雅黑','黑体',sans-serif;position:relative;top:100px;left:237px;color:white;}
+    #third p{font-size:15px;font-family:'微软雅黑','黑体',sans-serif;position:relative;top:100px;left:230px;color:white;}
+    #third a{color:white;}
+	</style>
+</head>
+<body>
+<div id="main">
+    <div id="header">
+   	    <h3>D O M A N I</h3>
+    </div>
+    <div id="banner">
+        <h1>JOIN THE</h1>
+        <h1>FAMILY</h1>
+        <h4>Create exceptional work with good people.</h4>
+    </div>
+    <div id="gridwrap">
+        <div id="box-txt">
+   		    <div class="box-txt-1">
+   			    <h2>SO WHAT'S YOUR PASSION?</h2></br></br>
+   		        Domani Studios is an award-winning </br>interactive creative agency whose creative </br>vision is born out of our dedication to digital </br>media and a passion for emerging </br>technologies. We create breakthrough </br>experiences that drive authentic </br>connections between consumers and </br>brands. We have a history of creating results-</br>driven interactive environments that foster </br>active participation, community building and </br>peer-to-peer sharing.</br></br>We offer excellent benefits including </br>health/dental/vision coverage for you and </br>your family, 401k, pre-tax commuter breaks, </br>a stocked pantry, and a chill atmosphere.
+   		    </div>
+   		</div>
+   		<div id="box-list">
+   		    <div class="box-list-1">
+   		        <div class="title"><h4>Design</h4></div>
+   		        <div class="vary">Sr. Interactive Art Director</div>
+   		        <div class="vary">UX Designer (all levels)</div>
+   		        <div class="vary">UX Intern</div>
+   		        <div class="vary">Interactive Art Director (all levels)</div>
+   		        <div class="vary">Design Intern</div> 
+   		    </div>
+   		    <div class="box-list-2">
+   		        <div class="title"><h4>Web Development</h4></div>
+   		        <div class="vary">Back End Technical Lead/Senior Developer</div>
+   		        <div class="vary">Interactive Developer</div>
+   		        <div class="vary">Development Intern</div> 
+   		    </div>
+   		    <div class="box-list-3">
+   		        <div class="title"><h4>Client Services</h4></div>
+   		        <div class="vary">Digital Account Manager</div>   
+   		    </div>
+   		    <div class="box-list-4">
+   		        <div class="title"><h4>Production</h4></div>
+   		        <div class="vary">Senior Interactive Producer</div>
+   		        <div class="vary">Interactive Producer</div>   
+   		    </div>
+   		</div>
+   	</div>
+
+    <div id="buttom">
+        <div id=img-txt1>
+           <div class="inner1"></div>
+           <div class="txt">
+               <p><em>Some of the best creative and technical chops in town cranking out exciting and challenging work that pushes boundaries. At Domani we keep it real and fun.</em></p></br></br>
+               <p>- NIRMALA SHOME, SR. INTERACTIVE PRODUCER</p>
+           </div>
+        </div>
+        <div id=img-txt2>
+           <div class="inner2"></div>
+           <div class="txt">
+               <p><em>I've never learned so much so quickly than while working at Domani. Our great design work inspires technical accomplishments, and our amazing team of developers provide the support needed to rapidly grow one's skills.</em></p></br></br>
+               <p>- STEVE MATYSIK, INTERACTIVE DEVELOPER</p>
+           </div>
+        </div>
+        <div id=img-txt3>
+           <div class="inner3"></div>
+           <div class="txt">
+           <p><em>Working at DOMANI is about so much more than just putting in the hours - it's about supporting each other on every step towards award-winning work.</em></p></br></br>
+           <p>- RACHEL OLINER, DIGITAL STRATEGIST</p>
+           </div>
+        </div>
+    </div>
+    <div id="footer">
+   	    <div id="first">
+   		    <h3>D O M A N I</h3>
+   		    <p>© 2015 Domani Studios LLC.</p>
+   		</div> 
+   		<div id="second">
+   			<h4>WALK</h4>
+   			<p>32 Avenue of the Amenricas</br></br>19th Floor</br></br>New York, NY 10013</br></br><a href="#">View on Map</a></p>
+   		</div> 
+   		<div id="third">
+   			<h4>Talk</h4>
+   			<p><a href="#">New Biz:hello@domanistudios.com</br></br>General:
+            hello@domanistudios.com</br></br>Careers:
+            workwithus@domanistudios.com</br></br>phone:&nbsp;646-744-3501/
+            Fax:&nbsp;
+            212-242-4112</a></p>
+            <div id="return"><p>↑</p>></div> <!--箭头部分-- >
+   		</div>
+   	</div>	
+    </div>
+</div>
+</body>
+</html>
